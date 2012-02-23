@@ -1,8 +1,4 @@
 class ssh::install {
-	package {"ssh":
-	  name => $operatingsystem ?
-	    /(Red Hat|CentOS|Fedora|Ubuntu|Debian)/ => "openssh-server",
-	    Solaris => "openssh",
-	    },
+	package {$ssh::params::ssh_package_name:
 	  ensure => installed,
 }
