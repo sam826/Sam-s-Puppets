@@ -9,6 +9,7 @@ node 'vm-pc-ub-1.nyc.rr.com'{
 
 node 'vm-pc-ub-2.nyc.rr.com'{
 	include base
+	include postfix
 	include apache
 
 	apache::vhost { 'www.example.com':
