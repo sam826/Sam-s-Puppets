@@ -29,5 +29,5 @@ node 'vm-pc-ub-2.nyc.rr.com'{
 
 node 'vm-pc-ub-3.nyc.rr.com'{
 	include base
+	include mysql
 }
-
