@@ -1,5 +1,5 @@
 class ssh::config {
-	file {"/etc/ssh/sshd_config":
+	file {$ssh::params::ssh_service_config:
 	ensure => present,
 	owner => 'root',
 	group => 'root',
