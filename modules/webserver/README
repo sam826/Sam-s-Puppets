@@ -4,4 +4,4 @@
 
 puppet apply --debug -e "include webserver::webinstall"
 
-# webinstall calls other modules
+# webinstall calls other modules - uncomment "include" statements to add other modules

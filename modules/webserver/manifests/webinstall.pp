@@ -27,7 +27,6 @@ class webserver::webinstall {
 
 		#include webserver::curl, webserver::python
 		#include webserver::pycurl, webserver::pyyaml, webserver::beautifulsoup, webserver::celery, webserver::python-daemon, webserver::pymongo, webserver::tornado, webserver::redis-py
-		#include webserver::nginx, webserver::supervisor
-		include webserver::supervisor
+		#include webserver::nginx, webserver::redis, webserver::supervisor
 
 }
