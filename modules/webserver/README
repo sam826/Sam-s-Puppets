@@ -1,0 +1,7 @@
+#
+# Webserver module
+#
+
+puppet apply --debug -e "include webserver::webinstall"
+
+# webinstall calls other modules
